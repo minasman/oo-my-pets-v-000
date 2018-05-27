@@ -52,4 +52,6 @@ class Owner
   def feed_fish
     self.pets[:fishes].collect {|fish| fish.mood = "happy"}
   end
+  
+  
 end
