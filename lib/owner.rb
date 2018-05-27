@@ -42,4 +42,6 @@ class Owner
   end
   
   def walk_dogs
+    self.pets[:dogs].collect {|dog
+  end
 end
