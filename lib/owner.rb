@@ -25,4 +25,7 @@ class Owner
   def say_species
     "I am a human."
   end
+  
+  def buy_fish
+    pet = Fish.new(name)
 end
